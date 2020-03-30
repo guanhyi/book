@@ -1,0 +1,176 @@
+
+// 公共部分
+.layer{
+  padding: 0 5vw;
+}
+
+
+//  Home
+// Mobile
+@media only screen and  (max-width: 765px) {
+  .Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .bookcase {
+      width: 100%;
+      .bookcase-charts {
+        .bookcase-chart {
+          display: flex;
+          flex-direction: column;
+        }
+        .bookcase-table {
+          margin-top: 40px;
+        }
+      }
+      .bookcase-recent {
+        margin-top: 40px;
+        .el-table {
+          margin-top: 40px;
+        }
+      }
+    }
+    .school-statistics {
+      margin-top: 40px;
+      width: 100%;
+      .el-table {
+        margin-top: 40px;
+      }
+    }
+  }
+
+}
+// PC
+@media only screen and  (min-width: 765px) {
+  .Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .bookcase {
+      width: 48%;
+      .bookcase-charts {
+        .bookcase-chart {
+          display: flex;
+          flex-direction: row;
+          .pieChart{
+            width: 100%;
+          }
+        }
+        .bookcase-table {
+          margin-top: 40px;
+        }
+      }
+      .bookcase-recent {
+        margin-top: 40px;
+        .el-table {
+          margin-top: 40px;
+        }
+      }
+    }
+    .school-statistics {
+      width: 48%;
+      .el-table {
+        margin-top: 40px;
+      }
+    }
+  }
+  
+}
+
+
+//  statistical
+// Mobile
+@media only screen and  (max-width: 765px) {
+  .statistical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .deposit {
+      width: 100%;
+      .deposit-charts {
+        .deposit-chart {
+          display: flex;
+          flex-direction: column;
+        }
+        .deposit-table {
+          margin-top: 40px;
+        }
+      }
+      .bookcase-recent {
+        margin-top: 40px;
+        .el-table {
+          margin-top: 40px;
+        }
+      }
+    }
+    .borrowing{
+      margin-top: 40px;
+      width: 100%;
+      .borrowinginfo{
+        .info{
+          margin-top: 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          div{
+            width: 50%;
+          }
+        }
+      }
+      .borrowingchart{
+        margin-top: 40px;
+      }
+    }
+    .statisticalInfo{
+      margin-top: 40px;
+      width: 100%;
+      .info{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .chart{
+        margin: 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+
+}
+// PC
+@media only screen and  (min-width: 765px) {
+  .statistical{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .deposit {
+      width: 45%;
+      .deposit-table{
+        margin-top: 40px;
+      }
+    }
+    .borrowing{
+      width: 45%;
+      .borrowinginfo{
+        .info{
+          margin-top: 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          div{
+            width: 50%;
+          }
+        }
+      }
+      .borrowingchart{
+        margin-top: 40px;
+      }
+    }
+  }
+  
+}
+
+
